@@ -630,7 +630,7 @@ label[for="label-a"] {
 .contest .contestctg .conctg li:nth-of-type(1) {
   margin-left: 4.687%;
 }
-.contest .contestctg .conctg li:nth-of-type(1) a {
+.contest .contestctg .conctg li:nth-of-type(2) a {
   color: #000;
 }
 .contest .contestctg .conctg li:hover a {
@@ -792,5 +792,173 @@ label[for="label-a"] {
 }
 .contest .nextBox p span:hover {
   background-color: #2c2f39;
+  transition: all .3s;
+}
+
+
+/* contestTeam */
+.modal2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2829px;
+  display: none;  
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal2.show {
+  display: block;
+}
+.modal2.hide {
+  display: none;
+}
+.modal_body2 {
+  position: absolute;
+  top: 1630px;
+  left: 50%;
+  width: 85%;
+  height: auto;
+  padding-top: 80px;
+  padding-left: 9.029%;
+  padding-right: 4.029%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  transform: translateX(-50%) translateY(-50%);
+}
+.closebtn2 {
+  border: none;
+  background-color: #fff;
+  float: right;
+  margin-top: -30px;
+  position: relative;
+}
+.contestDetail p {
+  font-size: 1.458vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.contestDetail .detail {
+  width: 120%;
+  height: 547px;
+}
+.contestDetail .detail li {
+  float: left;
+}
+.contestDetail .detail li .detailimg {
+  width: 24.019%;
+  height: auto;
+}
+.contestDetail .detail li .contable {
+  margin-left: 12.23%;
+  margin-top: 25px;
+  font-size: 1.354vw;
+  color: #909090;
+  width: 100%;
+}
+.contestDetail .detail li .contable tr {
+  width: 90%;
+  height: 45px;
+}
+.contestDetail .detail li .contable tr td:nth-of-type(1) {
+  width: 160px;
+  color: #000;
+}
+.contestDetail .detail li .contable tr td span:nth-of-type(1) {
+  line-height: 40px;
+
+}
+.contestDetail .detail li .contable tr td span {
+  display: block;
+  position: relative;
+  top: 23px;
+}
+.contestdtype {
+  width: 100%;
+  height: 100px;
+  margin-top: 75px;
+}
+.contestdtype p {
+  font-size: 1.142vw;
+  color: #a5a5a5;
+  float: left;
+  margin-right: 5%;
+  font-weight: bold;
+}
+.contestdtype p:hover {
+  border-bottom: 3px solid #000;
+  padding-bottom: 7px;
+}
+.contestdtype p:nth-of-type(2) {
+  color: #000;
+  border-bottom: 3px solid #000;
+  padding-bottom: 7px;
+}
+.contestdtype span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  position: relative;
+  top: 50px;
+}
+.person {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.person p {
+  font-size: 1.250vw;
+  color: #2f2f2f;
+  line-height: 28px;
+}
+.person p span {
+  display: block;
+}
+.person .teamJang {
+  width: 90%;
+  height: 700px;
+  margin-left: 4%;
+  margin-top: 60px;
+}
+.person .teamJang li {
+  margin-right: 4%;
+  float: left;
+  margin-bottom: 50px;
+}
+.person .teamJang li p {
+  text-align: center;
+}
+.insert {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.insert p {
+  font-size: 1.563vw;
+  color: #2f2f2f;
+  line-height: 35px;
+}
+.insert p span {
+  display: block;
+}
+.insert .insertbtn {
+  width: 12.99%;
+  height: 71px;
+  border: 1px solid #707fc2;
+  margin: 30px auto;
+  padding-top: 25px;
+  border-radius: 5%;
+}
+.insert .insertbtn a {
+  font-size: 1.250vw;
+  color: #707fc2;
+}
+.insert .insertbtn:hover {
+  color: #fff;
+  background-color: #707fc2;
+  transition: all .3s;
+}
+.insert .insertbtn:hover a {
+  color: #fff;
   transition: all .3s;
 }
