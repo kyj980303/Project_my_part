@@ -817,13 +817,14 @@ label[for="label-a"] {
 }
 .modal_body2 {
   overflow-y: auto;
+  overflow-x: hidden;
   position: absolute;
   top: 16%;
   left: 50%;
   width: 80%;
   height: 830px;
   padding-top: 80px;
-  padding-left: 4.529%;
+  padding-left: 4.029%;
   padding-right: 4.029%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -837,7 +838,10 @@ label[for="label-a"] {
   border: none;
   background-color: #fff;
   float: right;
-  margin-top: -30px;
+  position: relative;
+  top: 90px;
+  right: 15%;
+  z-index: 999;
 }
 .contestDetail p {
   font-size: 1.458vw;
@@ -1001,7 +1005,7 @@ label[for="label-a"] {
   width: 80%;
   height: 830px;
   padding-top: 80px;
-  padding-left: 8.529%;
+  padding-left: 4.029%;
   padding-right: 4.029%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -1012,8 +1016,10 @@ label[for="label-a"] {
   border: none;
   background-color: #fff;
   float: right;
-  margin-top: -30px;
   position: relative;
+  top: 90px;
+  right: 14.1%;
+  z-index: 999;
 }
 .teamJangD {
   width: 100%;
@@ -1034,12 +1040,13 @@ label[for="label-a"] {
 .teamJangD .tjd li .tjdimg img {
   width: 80.326%;
   height: auto;
+  margin-left: 14%;
 }
 .teamJangD .tjd li p {
   font-size: 1.254vw;
   text-align: center;
   position: relative;
-  right: 10%;
+  left: 2%;
 }
 .teamJangD .tjd .tjdtxt {
   background-color: #bcc5e9;
@@ -1087,7 +1094,7 @@ label[for="label-a"] {
 }
 .hhhhhh .mi img {
   position: inherit;
-  right: 495px;
+  right: 528px;
   top: 10px;
 }
 .recruitment {
@@ -1133,7 +1140,7 @@ label[for="label-a"] {
 }
 .recruit .mi2 img {
   position: inherit;
-  right: 595px;
+  right: 635px;
   top: 10px;
 }
 .teammate {
@@ -1176,4 +1183,71 @@ label[for="label-a"] {
   background-color: #6c6d70;
   color: #fff;
   transition: all .3s;
+}
+
+/* modal4 */
+.modal4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal4.show {
+  display: block;
+}
+.modal4.hide {
+  display: none;
+}
+.modal_body4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 29.833%;
+  height: 40%;
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  transform: translateX(-50%) translateY(-50%);
+}
+.closebtn4 {
+  border: none;
+  background-color: #fff;
+  float: right;
+  position: relative;
+  top: 0px;
+  right: 0%;
+  z-index: 999;
+}
+.modal_body4 p {
+  font-size: 1.354vW;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.modal_body4 .teamb span button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+.modal_body4 .teamb span {
+  padding: 10px 20px;
+  border: 1px solid #707fc2;
+  border-radius: 5px;
+  margin-left: 1%;
+  background-color: #707fc2;
+  color: #fff;
+}
+.modal_body4 .teamb span:hover {
+  background-color: #48527d;
+}
+.modal_body4 .teamb span:nth-of-type(2) {
+  background-color: #a5a5a5;
+  border: 1px solid #a5a5a5;
+}
+.modal_body4 .teamb span:nth-of-type(2):hover {
+  background-color: #6c6d70;
 }

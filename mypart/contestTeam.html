@@ -90,8 +90,8 @@
 
           <!-- contestDetail modal2 -->
           <div class="modal2" style="position: absolute; z-index: 1;">
+            <button class="closebtn2" onclick="clo()"><img style="position: fixed;" src="./img/x.png"></button>
             <div class="modal_body2">
-              <button class="closebtn2" onclick="clo()"><img src="./img/x.png"></button>
 
               <div class="contestDetail">
                 <p>콘테스트 상세정보</p>
@@ -209,70 +209,83 @@
             </div>
           </div><!--modal2-->
 
-           <!-- modal3 -->
-           <div class="modal3" style="position: absolute; z-index: 1;">
+          <!-- modal3 -->
+          <div class="modal3" style="position: absolute; z-index: 1;">
+            <button class="closebtn3" onclick="clo2()"><img src="./img/x.png"></button>
             <div class="modal_body3">
-                <button class="closebtn2" onclick="clo2()"><img src="./img/x.png"></button>
 
-                <div class="teamJangD">
-                  <p class="pp">닉네임님 상세정보</p>
-                  <ul class="tjd">
-                    <li>
-                      <div class="tjdimg">
-                        <img src="./img/profile1.png">
-                      </div>
-                      <p>닉네임</p>
-                    </li>
-                    <li>
-                      <textarea cols="65" rows="50" class="tjdtxt" placeholder="나를 소개하는 글을 입력해주세요."></textarea>
-                    </li>
-                  </ul>
-                </div>
+              <div class="teamJangD">
+                <p class="pp">닉네임님 상세정보</p>
+                <ul class="tjd">
+                  <li>
+                    <div class="tjdimg">
+                      <img src="./img/profile1.png">
+                    </div>
+                    <p>닉네임</p>
+                  </li>
+                  <li>
+                    <textarea cols="70" rows="50" class="tjdtxt" placeholder="나를 소개하는 글을 입력해주세요."></textarea>
+                  </li>
+                </ul>
+              </div>
 
-                <div class="portfolio">
-                  <p>포트폴리오
-                    <button name="addStaff"><img src="./img/plus.png"></button>
-                  </p>
-                  <div name="hhhhhh">
-                    <select name="port" class="po">
-                      <option value="포트폴리오를 선택해주세요.">포트폴리오를 선택해주세요.</option>
-                      <option value="포트폴리오1">포트폴리오1</option>
-                      <option value="포트폴리오2">포트폴리오2</option>
-                      <option value="포트폴리오3">포트폴리오3</option>
-                    </select>
-                  </div>
+              <div class="portfolio">
+                <p>포트폴리오
+                  <button name="addStaff"><img src="./img/plus.png"></button>
+                </p>
+                <div name="hhhhhh">
+                  <select name="port" class="po">
+                    <option value="포트폴리오를 선택해주세요." selected>포트폴리오를 선택해주세요.</option>
+                    <option value="포트폴리오1">포트폴리오1</option>
+                    <option value="포트폴리오2">포트폴리오2</option>
+                    <option value="포트폴리오3">포트폴리오3</option>
+                  </select>
                 </div>
+              </div>
 
-                <div class="recruitment">
-                  <p>모집분야와 인원을 선택해주세요.
-                    <button name="addStaff2"><img src="./img/plus.png"></button>
-                  </p>
-                  <div name = "rrr" class="recruit">
-                    <select name="recru" class="re">
-                      <option value="촐영">촐영</option>
-                      <option value="편집">편집</option>
-                      <option value="음향">음향</option>
-                    </select>
-                    <select name="personnel" class="re2">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="6">6</option>
-                    </select>
-                  </div>
+              <div class="recruitment">
+                <p>모집분야와 인원을 선택해주세요.
+                  <button name="addStaff2"><img src="./img/plus.png"></button>
+                </p>
+                <div name = "rrr" class="recruit">
+                  <select name="recru" class="re">
+                    <option value="모집분야를 선택해주세요." selected>모집분야를 선택해주세요.</option>
+                    <option value="촐영">촐영</option>
+                    <option value="편집">편집</option>
+                    <option value="음향">음향</option>
+                  </select>
+                  <select name="personnel" class="re2">
+                    <option value="인원" selected>인원</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
                 </div>
+              </div>
                 
-                <div class="teammate">
-                  <button class="tm">팀원 모집하기</button>
-                  <button class="tm" onclick="clo2()">뒤로가기</button>
-                </div>
+              <div class="teammate">
+                <button class="tm" onclick="dis3()">팀원 모집하기</button>
+                <button class="tm" onclick="clo2()">뒤로가기</button>
+              </div>
 
             </div>
           </div><!--modal3-->
 
-          
+          <!--modal4-->
+          <div class="modal4" style="position: absolute; z-index: 1;">
+            <div class="modal_body4">
+              <button class="closebtn4" onclick="clo3()"><img src="./img/x.png"></button>
+              <p>팀원을 모집하시겠습니까?</p>
+              <div class="teamb">
+                <span><button onclick="dis()">확인</button></span>
+                <span><button onclick="clo3()">취소</button></span>
+              </div>
+            </div>
+          </div>
+
           <a href="#"><ul class="con" onclick="dis()">
             <li>
               <div class="conimg">
@@ -469,6 +482,8 @@
       function dis(){
         if ($('.modal2').css('display') == 'none'){
           $('.modal2').show();
+          $('.modal3').hide();
+          $('.modal4').hide();
           body.style.overflow = 'hidden';
         } else{
           $('.modal2').hide();
@@ -478,7 +493,7 @@
       function clo(){
         if ($('.modal2').css('display') == 'show'){
           $('.modal2').hide();
-          body.style.overflow = 'auto';
+
         } else{
           $('.modal2').hide();
           body.style.overflow = 'auto';
@@ -504,6 +519,23 @@
         }
       }
 
+      function dis3(){
+        if ($('.modal4').css('display') == 'none'){
+          $('.modal3').show();
+          $('.modal4').show();
+        } else{
+          $('.modal4').hide();
+        }
+      }
+      function clo3(){
+        if ($('.modal4').css('display') == 'show'){
+          $('.modal4').hide();
+          $('.modal3').show();
+        } else{
+          $('.modal4').hide();
+          $('.modal3').show();
+        }
+      }
 
     // 포폴 추가 버튼
     $(document).on("click","button[name=addStaff]",function(){
@@ -531,11 +563,13 @@
         var addStaffText = 
           '<div name="rrr" class="recruit">'+
             '<select name="recru" class="re">'+
+              '<option value="모집분야" selected>모집분야를 선택해주세요.</option>'+
               '<option value="촐영">촐영</option>'+
               '<option value="편집">편집</option>'+
               '<option value="음향">음향</option>'+
             '</select>'+
             '<select name="personnel" class="re2">'+
+              '<option value="인원" selected>인원</option>'+
               '<option value="1">1</option>'+
               '<option value="2">2</option>'+
               '<option value="3">3</option>'+
