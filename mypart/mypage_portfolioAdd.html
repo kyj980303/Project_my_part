@@ -63,7 +63,7 @@
     </header>
     
     <ul class="myPage">
-      <li class="mypageArea">
+      <li class="mypageArea2">
         <div class="nick">
           <img src="./img/profile1.png">
           <p>닉네임님</p>
@@ -84,16 +84,29 @@
           </ul>
         </div>
       </li>
-      <li class="mypageArea">
+      <li class="mypageArea2">
         <div class="mypagePortfolio">
-          <p class="mptxt">나의 포트폴리오</p>
-          <div class="portfolioBox">
-            <div class="portfolioBoxCon">
-              <p>포트폴리오를 등록하시면 프로필, 판매 중 서비스,</p>
-              <p><span>원모아 포트폴리오 페이지에 노출</span>됩니다.</p>
-              <img src="./img/insertPo.png">
-              <p class="insertbtn"><a href="mypage_portfolioAdd.html">포트폴리오 등록하기</a></p>
-            </div>
+          <p class="mptxt">나의 포트폴리오 등록하기</p>
+          <div class="portfolioBoxCon2">
+            <table>
+              <tr>
+                <td><input name='title' type='text' size='60' placeholder="포트폴리오 제목을 입력해주세요."></td>
+              </tr>
+               <tr>
+                <td><textarea name="cont" rows='20' cols='60' placeholder="나의 포트폴리오를 설명해주세요."></textarea></td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="portFile" for="portFile">첨부파일<img class="portFileimg" src="./img/upload.png"></label>
+                  <input name='files' type="file" multiple id="portFile" class="pbtn">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="portAddbtn"><a href="mypage_portfolioList.html">등록하기</a></span>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </li>
