@@ -1,0 +1,162 @@
+/* portfoilo */
+header {
+  border-bottom: 1px solid #999;
+}
+.myPage {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+.myPage::after {
+  content:'';
+  display:block;
+  clear:both;
+  width: 100%;
+  height: auto;
+  padding-top: 116px;
+}
+.myPage .mypageArea {
+  float: left;
+  height: auto;
+  margin-left: 6.562%;
+}
+.myPage .mypageArea:nth-of-type(1) {
+  width: 13.5%;
+  margin-left: 10%;
+}
+.myPage .mypageArea:nth-of-type(2) {
+  width: 63%;
+}
+.myPage .mypageArea .nick {
+  width: 100%;
+}
+.myPage .mypageArea .nick p {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.myPage .mypageNav {
+  width: 100%;
+}
+.myPage .mypageNav .myonemoa {
+  width: 100%;
+  height: 50px;
+  font-size: 1.563vw;
+  font-weight: bold;
+}
+.myPage .mypageNav .mybar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  margin-top: -10px;
+}
+.myPage .mypageNav .mynav {
+  width: 100%;
+  height: auto;
+}
+.myPage .mypageNav .mynav li:nth-of-type(1) {
+  margin-top: 22px;
+  font-weight: bold;
+}
+.myPage .mypageNav .mynav li {
+  font-size: 1.354vw;
+  margin-bottom: 22px;
+  margin-left: 3%;
+}
+.myPage .mypageNav .mynav li a:hover {
+  font-weight: bold;
+  transition: all .3s;
+}
+.myPage .mypageArea .mypagePortfolio .mptxt {
+  font-size: 1.667vw;
+  font-weight: bold;
+  margin-bottom: 40px;
+  width: 92.5%;
+  height: 15px;
+}
+.myPage .mypageArea .mypagePortfolio .mptxt .addport:hover {
+  background-color: #4a5480;
+  transition: all .3s;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox {
+  width: 100%;
+  height: auto;
+  border: 1px solid #999;
+  background-color: rgb(251, 251, 251);
+  padding-top: 60px;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon p:nth-of-type(2) {
+  font-weight: normal;
+  position: relative;
+  top: -15px;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon {
+  width: 100%;
+  height: auto;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon p {
+  text-align: center;
+  font-size: 1.350vw;
+  color: #4b4b4b;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon p span {
+  color: #000;
+  font-weight: bold;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon img {
+  margin: 30px auto;
+  display: block;
+  
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon .insertbtn {
+  color: #fff;
+  background-color: #707fc2;
+  border-radius: 5px;
+  font-size: 1.250vw;
+  width: 22%;
+  height: 60px;
+  line-height: 60px;
+  margin: 75px auto;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon .insertbtn:hover {
+  background-color: #4a5480;
+  transition: all .3s;
+  cursor: pointer;
+} 
+/* portfoilo list */
+.myPage .mypageArea .mypagePortfolio .portfolioBoxCon .portfolioList {
+  width: 100%;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBoxCon .portfolioList li {
+  float: left;
+  margin-right: 5%;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBox .portfolioBoxCon .portfolioList::after {
+  content:'';
+  display:block;
+  clear:both;
+}
+.myPage .mypageArea .mypagePortfolio .portfolioBoxCon .portfolioList li p {
+  text-align: center;
+}
+.myPage .mypageArea .mypagePortfolio .mptxt2 {
+  font-size: 1.667vw;
+  font-weight: bold;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #999;
+  width: 92.5%;
+  height: 50px;
+}
+.myPage .mypageArea .mypagePortfolio .mptxt2 .addport {
+  font-size: 1.05vw;
+  float: right;
+  padding: 10px 10px;
+  background-color: #707fc2;
+  color: #fff;
+  font-weight: normal;
+  border-radius: 5px;
+}
+.myPage .mypageArea .mypagePortfolio .mptxt2 .addport:hover {
+  background-color: #4a5480;
+  transition: all .3s;
+}
