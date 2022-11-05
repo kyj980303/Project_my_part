@@ -88,6 +88,7 @@
         <div class="mypagePortfolio">
           <p class="mptxt">나의 포트폴리오 등록하기</p>
           <div class="portfolioBoxCon2">
+            <form action='portfolioAdd' method="post" enctype="multipart/form-data">
             <table>
               <tr>
                 <td><input name='title' type='text' size='60' placeholder="포트폴리오 제목을 입력해주세요."></td>
@@ -101,12 +102,12 @@
                   <input name='files' type="file" multiple id="portFile" class="pbtn">
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <span class="portAddbtn"><a href="mypage_portfolioList.html">등록하기</a></span>
-                </td>
-              </tr>
             </table>
+            <p style="text-align: center;">
+              <button class="portAddbtn" type='submit'>등록하기</button>
+              <!-- <a href='contestList'>목록</a> -->
+            </p>
+          </form>
           </div>
         </div>
       </li>
@@ -146,6 +147,28 @@
         modal.style.display = 'none';
         body.style.overflow = 'auto';
       });
+
+      // 로그인 ajax 비동기 처리
+      $(".loginbtn").click(function () {
+        var email = $("#email").val();
+        var password = $("#password").val();
+        var saveEmail = $("input[type=checkbox][name=saveEmail]:checked").val();
+
+        $.ajax({
+          type: "POST",
+          url: "/onemoa/login",
+          data: {email: email, password: password, saveEmail: saveEmail},
+          success: function (result) {
+            if(result == "true") {
+              window.location.reload();
+            } else if (result == "false") {
+              document.getElementById("emailPasswordCheck").style.display = "block";
+              document.getElementById("emailPasswordCheck").value="이메일 또는 비밀번호가 일치하지 않습니다.";
+              document.getElementById("emailPasswordCheck").style.color="red";
+            }
+          },
+        });
+      }); 
     </script>
 
   </body>

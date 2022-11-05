@@ -250,6 +250,11 @@ header {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 table tr td .ptNo {
+  background-color: #d0d0db;
+  width: 5.5%;
+  height: 20px;
+}
 .myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 table tr td textarea {
   padding: 15px;
   width: 95%;
@@ -274,17 +279,62 @@ header {
 .myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 table tr td .pbtn {
   display: none;
 }
-.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 table tr td .portAddbtn a {
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns {
+  float: right;
+  position: relative;
+  left: -5%;
+  top: -30px;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portsub {
+  border: none;
+  background-color: transparent;
   text-align: center;
   padding: 10px 15px;
   color: #fff;
   border-radius: 5px;
   background-color: #707fc2;
+  font-size: 0.9vw;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portsub:hover {
+  background-color: #4a5480;
+  transition: all .3s;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns a {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgb(111, 114, 123);
+  font-size: 0.9vw;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns a:hover {
+  background-color: rgb(84, 86, 92);
+  transition: all .3s;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns a:nth-of-type(2) {
+  background-color: #70a5c2;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns a:nth-of-type(2):hover {
+  background-color: #4d7489;
+  transition: all .3s;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portAddbtn {
   float: right;
   position: relative;
   left: -5%;
+  top: -15px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #707fc2;
+  font-size: 0.9vw;
 }
-.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 table tr td .portAddbtn a:hover {
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portAddbtn:hover {
   background-color: #4a5480;
   transition: all .3s;
 }
