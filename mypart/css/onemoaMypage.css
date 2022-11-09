@@ -299,6 +299,15 @@ header {
   background-color: #4a5480;
   transition: all .3s;
 }
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 span {
+  border-top: 1px solid #999;
+  display: block;
+  width: 95%;
+  height: 50px;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns {
+  margin: 0 auto;
+}
 .myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portbtns a {
   border: none;
   background-color: transparent;
@@ -333,8 +342,37 @@ header {
   border-radius: 5px;
   background-color: #707fc2;
   font-size: 0.9vw;
+  margin-right: 1%;
 }
 .myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portAddbtn:hover {
   background-color: #4a5480;
   transition: all .3s;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .plist {
+  float: right;
+  position: relative;
+  left: -5%;
+  top: -15px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #727272;
+  font-size: 0.9vw;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .plist:hover {
+  background-color: #424242;
+  transition: all .3s;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portfolioimglist {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.myPage .mypageArea2 .mypagePortfolio .portfolioBoxCon2 .portfolioimglist li {
+  float: left;
+  height: auto;
+  margin-right: 6%;
 }

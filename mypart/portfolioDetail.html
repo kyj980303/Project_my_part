@@ -99,13 +99,36 @@
                  <tr>
                   <td><textarea name="cont" rows='20' cols='60' placeholder="나의 포트폴리오를 설명해주세요." data-th-value="${portfolio.cont}"></textarea></td>
                 </tr>
-                <!-- <tr>
+                <tr>
                   <td>
                     <label class="portFile" for="portFile">첨부파일<img class="portFileimg" src="../img/upload.png"></label>
                     <input name='files' type="file" multiple id="portFile" class="pbtn">
                   </td>
-                </tr> -->
+                </tr> 
               </table>
+              <ul class="portfolioimglist">
+                <li data-th-each="file : ${portfolio.attachedFiles}">
+                  <img data-th-src="${'/onemoa/portfolio/files/'+ portfolio.attachedFiles[0].filepath}" style="width: 260px; height: 260px;">
+                  <p style="font-size:1vw;"><a href="fileDelete?ptfNo=${file.ptfNo}" data-th-href="@{fileDelete(ptfNo=${file.ptfNo})}">삭제</a></p>
+                </li>
+                <li data-th-each="file : ${portfolio.attachedFiles}">
+                  <img data-th-src="${'/onemoa/portfolio/files/'+ portfolio.attachedFiles[0].filepath}" style="width: 260px; height: 260px;">
+                  <p style="font-size:1vw;"><a href="fileDelete?ptfNo=${file.ptfNo}" data-th-href="@{fileDelete(ptfNo=${file.ptfNo})}">삭제</a></p>
+                </li>
+                <li data-th-each="file : ${portfolio.attachedFiles}">
+                  <img data-th-src="${'/onemoa/portfolio/files/'+ portfolio.attachedFiles[0].filepath}" style="width: 260px; height: 260px;">
+                  <p style="font-size:1vw;"><a href="fileDelete?ptfNo=${file.ptfNo}" data-th-href="@{fileDelete(ptfNo=${file.ptfNo})}">삭제</a></p>
+                </li>
+                <li data-th-each="file : ${portfolio.attachedFiles}">
+                  <img data-th-src="${'/onemoa/portfolio/files/'+ portfolio.attachedFiles[0].filepath}" style="width: 260px; height: 260px;">
+                  <p style="font-size:1vw;"><a href="fileDelete?ptfNo=${file.ptfNo}" data-th-href="@{fileDelete(ptfNo=${file.ptfNo})}">삭제</a></p>
+                </li>
+                <li data-th-each="file : ${portfolio.attachedFiles}">
+                  <img data-th-src="${'/onemoa/portfolio/files/'+ portfolio.attachedFiles[0].filepath}" style="width: 260px; height: 260px;">
+                  <p style="font-size:1vw;"><a href="fileDelete?ptfNo=${file.ptfNo}" data-th-href="@{fileDelete(ptfNo=${file.ptfNo})}">삭제</a></p>
+                </li>
+              </ul>
+              <span></span>
               <p class="portbtns">
                 <button type='submit' class="portsub">수정하기</button>
                 <a href='portfolioDelete?ptNo=1' data-th-href="@{portfolioDelete(ptNo=${portfolio.ptNo})}">삭제하기</a>
