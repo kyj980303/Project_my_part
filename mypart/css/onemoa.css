@@ -2047,7 +2047,7 @@ label[for="label-a"] {
   color: red
 } 
 .joinForm-grid-item .name-input {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2057,7 +2057,7 @@ label[for="label-a"] {
   color: #a3a3a3;
 }
 .joinForm-grid-item .nickname-input {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2085,7 +2085,7 @@ label[for="label-a"] {
   outline:none;
 }
 .joinForm-grid-item .email-input {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2095,7 +2095,7 @@ label[for="label-a"] {
   color: #a3a3a3;
 }
 .joinForm-grid-item .mail-input-check {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2137,7 +2137,7 @@ label[for="label-a"] {
   outline:none;
 }
 .joinForm-grid-item #password {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2147,7 +2147,7 @@ label[for="label-a"] {
   color: #a3a3a3;
 }
 .joinForm-grid-item #password-ck {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2164,7 +2164,7 @@ label[for="label-a"] {
   outline:none;
 }
 .joinForm-grid-item #sample6_postcode {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2174,7 +2174,7 @@ label[for="label-a"] {
   color: #a3a3a3;
 }
 .joinForm-grid-item #sample6_address {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2184,7 +2184,7 @@ label[for="label-a"] {
   color: #a3a3a3;
 }
 .joinForm-grid-item #sample6_detailAddress {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2210,7 +2210,7 @@ label[for="label-a"] {
   align-items: center;
 }
 .joinForm-grid-item .job {
-  padding-left: 3%;
+  padding-left: 1.1%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
@@ -2227,7 +2227,7 @@ label[for="label-a"] {
 }
   /*joinForm 관심사선택 multiselect*/
 .interest-multiselect .interest {
-  padding-left: 3%;
+  padding-left: 2%;
   font-size: 1vw;
   height: 50px;
   border-radius: 3px;
